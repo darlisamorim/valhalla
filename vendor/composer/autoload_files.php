@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'b04f438885bd48d5a48611d5355a2735' => $baseDir . '/source/Support/Config.php',
     'ae6d312c47bb41e7d287660166a25b1e' => $baseDir . '/source/Support/Helpers.php',
+    '31aa9a314521fe95cec534eadb604544' => $baseDir . '/source/Support/minify.php',
 );
