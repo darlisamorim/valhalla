@@ -11,7 +11,7 @@ define("CONF_DB_NAME", "valhalla");
  * PROJECT URLs
  */
 define("CONF_URL_BASE", "https://darlisalvesamorim.dev");
-define("CONF_URL_TEST", "http://localhost/Valhalla");
+define("CONF_URL_TEST", "http://localhost/valhalla");
 define("CONF_URL_ADMIN", "/admin");
 // define("CONF_URL_ADMIN", CONF_URL_BASE . "/admin");
 
