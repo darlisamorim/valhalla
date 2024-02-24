@@ -13,10 +13,14 @@ class Web extends Controller
 
       public function home(): void
       {
-            echo "<h1>Home</h1>";
+            echo $this->view->render("home", [
+                  "title" => "Valhalla"
+            ]);
       }
       public function error(array $data): void 
       {
-            echo "<h1>Error</h1>";
+            echo $this->view->render("error", [
+                  "title" => "{$data['errcode']} | Oooops!"
+            ]);
       }
 }
