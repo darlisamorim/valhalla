@@ -1,0 +1,37 @@
+{
+  "name": "darlisamorim/valhalla",
+  "description": "Pure Model view Controller",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Darlis A. Amorim",
+      "email": "eu@darlisalvesamorim.dev",
+      "homepage": "https://www.darlisalvesamorim.dev",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php",
+      "source/Support/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-pdo": "^8.1",
+    "phpmailer/phpmailer": "^6.9",
+    "league/plates": "v3.x-dev",
+    "coffeecode/router": "2.0.*",
+    "coffeecode/datalayer": "2.0.*",
+    "coffeecode/uploader": "2.0.*",
+    "coffeecode/cropper": "2.0.*",
+    "coffeecode/optimizer": "2.1.*",
+    "coffeecode/paginator": "2.0.*"
+  }
+}
