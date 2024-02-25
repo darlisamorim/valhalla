@@ -1,6 +1,5 @@
 <?php
-
-if(!strpos(url(), "localhost"))
+if(strpos(url(), "localhost"))
 {
 
       // CSS Minify's 
@@ -20,13 +19,13 @@ if(!strpos(url(), "localhost"))
       }
 
       // Minify Start 
-      $minCSS->minify( __DIR__ . "/../../themes/" . CONF_VIEW_THEME . "/assets/css/styles.css" );
+      $minCSS->minify( __DIR__ . "/../../themes/" . CONF_VIEW_THEME . "/assets/css/style.css" );
 
 
       // JS Minify's 
       $minJS = new MatthiasMullie\Minify\JS();
-      $minJS->add( __DIR__ . "/../../public/scripts/jquery-ui.min.js");
       $minJS->add( __DIR__ . "/../../public/scripts/jquery.min.js");
+      $minJS->add( __DIR__ . "/../../public/scripts/jquery-ui.min.js");
 
       // JS THEME
       $jsDir = scandir (  __DIR__ . "/../../themes/" . CONF_VIEW_THEME . "/assets/js");
@@ -40,6 +39,7 @@ if(!strpos(url(), "localhost"))
             }
       }
 
+      
       // Minify Start 
       $minJS->minify( __DIR__ . "/../../themes/" . CONF_VIEW_THEME . "/assets/js/scripts.min.js" );
 
