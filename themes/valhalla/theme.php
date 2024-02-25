@@ -7,8 +7,7 @@
 
     <title>Gerencie suas contas com um bom café</title>
     <link rel="icon" type="image/png" href="<?= theme("/assets/images/favicon.png") ?>"/>
-    <link rel="stylesheet" href="<?= theme("/assets/css/oocss.css") ?>"/>
-    <link rel="stylesheet" href="<?= theme("/assets/css/style.css") ?>"/>
+    <link rel="stylesheet" href="<?= theme("/assets/css/styles.css") ?>"/>
 </head>
 <body>
 
@@ -73,9 +72,9 @@
     </div>
 </footer> -->
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery-ui.js"></script>
-<script src="assets/js/scripts.js"></script>
+<script src="<?= theme("/assets/js/scripts.min.js") ?>"></script>
+<script src="<?= theme("/assets/js/main.js") ?>"></script>
+
 
 </body>
 </html>
