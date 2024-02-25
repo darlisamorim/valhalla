@@ -1,7 +1,7 @@
 <?php $this->layout('theme') ?>
 
 <!--FEATURED-->
-<article class="home_featured">
+<!-- <article class="home_featured">
     <div class="home_featured_content container content">
         <header class="home_featured_header">
             <h1>Contas a pagar e receber? Comece a controlar!</h1>
@@ -16,10 +16,10 @@
     <div class="home_featured_app">
         <img src="assets/images/home-app.jpg" alt="CafeControl" title="CafeControl"/>
     </div>
-</article>
+</article> -->
 
 <!--FEATURES-->
-<div class="home_features">
+<!-- <div class="home_features">
     <section class="container content">
         <header class="home_features_header">
             <h2>O que você pode fazer com o CafeControl?</h2>
@@ -55,10 +55,10 @@
             </article>
         </div>
     </section>
-</div>
+</div> -->
 
 <!--OPTIN-->
-<article class="home_optin">
+<!-- <article class="home_optin">
     <div class="home_optin_content container content">
         <header class="home_optin_content_flex">
             <h2>Cadastre-se no CaféControl e comece a controlar suas contas hoje mesmo</h2>
@@ -81,10 +81,10 @@
             </form>
         </div>
     </div>
-</article>
+</article> -->
 
 <!--VIDEO-->
-<article class="home_video">
+<!-- <article class="home_video">
     <div class="home_video_content container content">
         <header>
             <h2>Descubra o CafeControl</h2>
@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-</article>
+</article> -->
 
 <!--BLOG-->
 <section class="blog">
@@ -111,7 +111,7 @@
 
         <div class="blog_articles">
             <?php
-            for ($i = 0; $i <= 5; $i++): ?>
+            for ($i = 0; $i <= 1; $i++): ?>
                 <?= $this->insert('parts/blog')?>
             <?php endfor; ?>
         </div>

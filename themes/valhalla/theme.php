@@ -5,7 +5,7 @@
         <meta name="mit" content="2022-01-14T08:14:31-03:00+5109">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>CafeControl - Gerencie suas contas com um bom café</title>
+    <title>Gerencie suas contas com um bom café</title>
     <link rel="icon" type="image/png" href="<?= theme("/assets/images/favicon.png") ?>"/>
     <link rel="stylesheet" href="<?= theme("/assets/css/oocss.css") ?>"/>
     <link rel="stylesheet" href="<?= theme("/assets/css/style.css") ?>"/>
@@ -13,7 +13,7 @@
 <body>
 
 <!--HEADER-->
-<header class="main_header gradient gradient-green">
+<!-- <header class="main_header gradient gradient-green">
     <div class="container">
         <div class="main_header_logo">
             <h1><a class="icon-coffee transition" title="Home" href="./">Cafe<b>Control</b></a></h1>
@@ -30,7 +30,7 @@
             </div>
         </nav>
     </div>
-</header>
+</header> -->
 
 <!--CONTENT-->
 <main class="main_content">
@@ -38,7 +38,7 @@
 </main>
 
 <!--FOOTER-->
-<footer class="main_footer">
+<!-- <footer class="main_footer">
     <div class="container content">
         <section class="main_footer_content">
             <article class="main_footer_content_item">
@@ -71,7 +71,7 @@
             </article>
         </section>
     </div>
-</footer>
+</footer> -->
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery-ui.js"></script>
