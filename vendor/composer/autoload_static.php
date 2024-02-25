@@ -9,7 +9,6 @@ class ComposerStaticInitf319b0f6168405a580ed29f3ac09a2b1
     public static $files = array (
         'b04f438885bd48d5a48611d5355a2735' => __DIR__ . '/../..' . '/source/Support/Config.php',
         'ae6d312c47bb41e7d287660166a25b1e' => __DIR__ . '/../..' . '/source/Support/Helpers.php',
-        '31aa9a314521fe95cec534eadb604544' => __DIR__ . '/../..' . '/source/Support/minify.php',
     );
 
     public static $prefixLengthsPsr4 = array (

@@ -19,8 +19,7 @@
     },
     "files": [
       "source/Support/Config.php",
-      "source/Support/Helpers.php",
-      "source/Support/minify.php"
+      "source/Support/Helpers.php"
     ]
   },
   "require": {
