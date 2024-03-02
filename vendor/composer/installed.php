@@ -3,7 +3,7 @@
         'name' => 'darlisamorim/valhalla',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'bf2835498807f63a801fc7fcf7f83e3eb3243c97',
+        'reference' => '87396a00531ba0e8201f1c7514f0f5fc021c6ff0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -67,7 +67,7 @@
         'darlisamorim/valhalla' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'bf2835498807f63a801fc7fcf7f83e3eb3243c97',
+            'reference' => '87396a00531ba0e8201f1c7514f0f5fc021c6ff0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
