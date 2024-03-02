@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="<?= CONF_SITE_LANG ?>" itemscope itemtype="<?= CONF_SITE_SCHEMA; ?>" prefix="og: <?= CONF_SITE_SCHEMA_OPEN_GRAPH; ?>">
 <head>
-    <meta charset="UTF-8">
-        <meta name="mit" content="2022-01-14T08:14:31-03:00+5109">
+    <meta charset="<?= CONF_SITE_CHARSET ?>">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <title>Gerencie suas contas com um bom café</title>
+
     <link rel="icon" type="image/png" href="<?= theme("/assets/images/favicon.png") ?>"/>
     <link rel="stylesheet" href="<?= theme("/assets/css/styles.css") ?>"/>
 </head>

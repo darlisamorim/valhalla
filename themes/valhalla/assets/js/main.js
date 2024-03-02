@@ -1,6 +1,6 @@
 $(function (){
 
   // jQuery methods go here...
-  alert('Testando jQuery');
+  // alert('Testando jQuery');
 
 });

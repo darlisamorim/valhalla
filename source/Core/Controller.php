@@ -11,6 +11,7 @@ use Source\Support\Seo;
  */
 class Controller
 {
+      /** @var View */
       protected $view;
       protected $seo;
       public function __construct(string $pathToView = null)

@@ -12,13 +12,13 @@ $route = new Router(url(), "@");
 
 // Web Routes
 $route->namespace("Source\Controllers");
-$route->get("/", "web@home");
-$route->get("/sobre", "web@about");
+$route->get("/", "Web@home");
+$route->get("/sobre", "Web@about");
 
 
 // Error Routes
 $route->namespace("Source\Controllers")->group("/Oooops");
-$route->get("/{errcode}", "web@error");
+$route->get("/{errcode}", "Web@error");
 
 
 // Error Routes
